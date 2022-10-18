@@ -1,23 +1,8 @@
-Olá, candidato(a)!
+Olá!
 
-Primeiro gostaríamos de agradecer por seu interesse em fazer parte do time de desenvolvimento da Shopper.com.br.
+Este projeto foi realizado em Outubro/2022 como teste técnico para o processo seletivo de uma empresa.
 
-Abaixo vamos descrever um teste técnico onde queremos avaliar o que você conhece sobre desenvolvimento de software.
-
-Você vai criar um formulário simples de cadastro de pedidos de supermercado. O sistema deve ser escrito em Python ou Javascript (node.js e/ou react.js).
-
-Quando terminar os requisitos, nos avise para que você possa nos apresentar seu código e responder algumas perguntas sobre suas decisões.
-
-Além da funcionalidade, avaliaremos principalmente organização e clareza no código, lembre-se que um programador lê mais código do que escreve, então códigos limpos e bem estruturados facilitam a vida de todos.
-
-Junto desse documento você receberá o arquivo products.csv , que é uma lista com produtos disponíveis e seus respectivos preços e estoque com as seguintes definições:
-
-id = id do produto
-name = nome do produto
-price = preço do produto em reais.
-qty_stock = quantidade em estoque
-
-Abaixo listamos os requisitos que seu sistema deve atender:
+O projeto é um site de E-commerce construído em React.js e Node.js (utilizando Typescript e Orientação a objetos) e é composto pelos seguintes requisitos:
 
 1- O sistema deve ter um formulário de cadastro de pedidos
 2- O usuário deve entrar com Nome do Cliente, Data de Entrega e uma lista de compras
@@ -29,4 +14,24 @@ Abaixo listamos os requisitos que seu sistema deve atender:
 8- O sistema deve alertar o usuário caso a quantidade solicitada não esteja disponível no estoque.
 9- O sistema também deve ter uma função para mostrar o estoque atual exibindo: Nome do produto e a quantidade em estoque.
 
-Te desejamos um ótimo trabalho e, caso tenha qualquer dúvida, fique à vontade para entrar em contato conosco.
+O projeto também possui funcionalidade de criação de contas de usuário e login, personalizando a exibição da lista de compras efetuada pelo usuário logado.
+
+Para visualizar a execução do projeto após o clone para o repositório local, é preciso configurar as tabelas do banco de dados conforme dispostas no arquivo 'queries.sql' e configurar o arquivo '.env' conforme o esquema abaixo:
+
+DB_HOST = "Insira seus dados"
+DB_USER = "Insira seus dados"
+DB_PASSWORD = "Insira seus dados"
+DB_SCHEMA = "Insira seus dados"
+PORT = 3307
+
+JWT_EXPIRES_IN = 24h
+JWT_KEY = "Insira seus dados"
+BCRYPT_COST = 12
+
+Então é preciso rodar os seguintes comandos:
+
+~ npm install (para instalar todas as dependências do projeto)
+~ npm run backend (para inicar o servidor do backend)
+~npm run start (para iniciar o front-end da aplicação em React.js)
+
+
