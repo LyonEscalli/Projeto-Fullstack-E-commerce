@@ -14,24 +14,24 @@ O projeto é um site de E-commerce construído em React.js e Node.js (utilizando
 8- O sistema deve alertar o usuário caso a quantidade solicitada não esteja disponível no estoque. <br/>
 9- O sistema também deve ter uma função para mostrar o estoque atual exibindo: Nome do produto e a quantidade em estoque. <br/>
 
-O projeto também possui funcionalidade de criação de contas de usuário e login, personalizando a exibição da lista de compras efetuada pelo usuário logado.
+O projeto também possui funcionalidade de criação de contas de usuário e login, personalizando a exibição da lista de compras efetuada pelo usuário logado. 
 
 Para visualizar a execução do projeto após o clone para o repositório local, é preciso configurar as tabelas do banco de dados conforme dispostas no arquivo 'queries.sql' e configurar o arquivo '.env' conforme o esquema abaixo:
 
-DB_HOST = "Insira seus dados"
-DB_USER = "Insira seus dados"
-DB_PASSWORD = "Insira seus dados"
-DB_SCHEMA = "Insira seus dados"
-PORT = 3307
+DB_HOST = "Insira seus dados" <br/>
+DB_USER = "Insira seus dados" <br/>
+DB_PASSWORD = "Insira seus dados" <br/>
+DB_SCHEMA = "Insira seus dados" <br/>
+PORT = 3307 <br/>
 
-JWT_EXPIRES_IN = 24h
-JWT_KEY = "Insira seus dados"
-BCRYPT_COST = 12
+JWT_EXPIRES_IN = 24h <br/>
+JWT_KEY = "Insira seus dados" <br/>
+BCRYPT_COST = 12 <br/>
 
 Então é preciso rodar os seguintes comandos:
 
-~ npm install (para instalar todas as dependências do projeto)
-~ npm run backend (para inicar o servidor do backend)
-~npm run start (para iniciar o front-end da aplicação em React.js)
+~ npm install (para instalar todas as dependências do projeto) <br/>
+~ npm run backend (para inicar o servidor do backend) <br/>
+~npm run start (para iniciar o front-end da aplicação em React.js) <br/>
 
 
