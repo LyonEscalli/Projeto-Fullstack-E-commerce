@@ -31,7 +31,7 @@ BCRYPT_COST = 12 <br/>
 Então é preciso rodar os seguintes comandos:
 
 ~ npm install (para instalar todas as dependências do projeto) <br/>
-~ npm run backend (para inicar o servidor do backend) <br/>
+~ npm run backend (para iniciar o servidor do backend) <br/>
 ~npm run start (para iniciar o front-end da aplicação em React.js) <br/>
 
 
